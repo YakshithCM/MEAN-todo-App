@@ -1,0 +1,61 @@
+.modal-container {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  button.cancel-button {
+    background-color: #9f9f88;
+    color: black;
+  }
+  
+  button.save-button {
+    background-color: #0bd8a5;
+    color: white;
+  }
+  
+  button[mat-button] {
+    min-width: 80px;
+  }
+  
+  button.cancel-button:hover {
+    background-color: #bbbb33; /* Slightly darker shade for hover effect */
+  }
+  
+  button.save-button:hover {
+    background-color: #38a659; /* Slightly darker blue for hover effect */
+  }
+  
+  .mat-form-field-wrapper {
+    padding-bottom: 0;
+  }
+  
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: rgba(0, 0, 0, 0.12);
+  }
+  
+  .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #1cb786;
+  }
